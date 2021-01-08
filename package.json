@@ -1,0 +1,21 @@
+{
+  "name": "purpleapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "stop": "killall node"
+  },
+  "dependencies": {
+    "@google-cloud/secret-manager": "^3.2.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "firebase-admin": "^9.4.2",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "jstransformer-verbatim": "^1.1.1",
+    "morgan": "~1.9.1"
+  }
+}
